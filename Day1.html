@@ -398,6 +398,7 @@
                 <td style="background-color: rgb(252, 201, 252);color: royalblue; font-style:italic;">funf</td>
             </tr>
         </table>
+        <!-- Bai 9 -->
         <h4>Bai 9</h4>
 
         <table style="margin-left: 500px;" border="1" cellpadding="10" class="table9">
@@ -649,7 +650,7 @@
             </tr>
 
         </table>
-
+        <!-- Bai 10 -->
         <h4>Bai 10</h4>
         <details open>
             <summary>IUH</summary>
@@ -661,6 +662,7 @@
             <p>The forerunner of the Industrial University of Ho Chi Minh University was Professional Training School in Go Vap and founded December 1956. March 1999, the school was upgraded to College Industry IV and Decmber 2004 School was upgraded to
                 Ho Chi Minh University of Industry under Decision No 214/2004/QD - TTg of the Prime Minister</p>
         </details>
+        <!-- Bai 11 -->
         <h4>Bai 11</h4>
         <H1>Aboout</H1>
         <p>Drumbeat is an initiative that wants to keep the web open and do it thorugh paractical projects problems and building the open web.
@@ -683,12 +685,12 @@
         <a href=""><u>Twitter</u> |</a>
         <a href=""><u>Facebook</u> |</a>
         <a href=""><u>Flick</u></a>
-
+        <!-- Bai 12 -->
         <h4>Bai 12</h4>
         <label for="name">Name:</label><br>
         <input type="text" name="name" id="name" value="Duc"> <br>
         <p><input type="submit" value="Submit"></p>
-
+        <!-- Bai 13 -->
         <h4>Bai 13</h4>
         <form action="method">
             <p>
@@ -712,7 +714,8 @@
                 <input type="date" name="txtDate" value="" size="20" maxlength="20">
             </p>
             <p><input type="submit" value="Submit"></p>
-            <h4>Bai 14</h4>
+        <!-- Bai 14 -->
+        <h4>Bai 14</h4>
         </form>
         <h1>Contact Us</h1>
         <form action="https://github.com/stevenduc0106/ThucHanhWeb_HTML_CSS" method="get">
@@ -721,7 +724,7 @@
                 <tr>
                     <td>Your email:</td>
                     <td style="width: 40px;"></td>
-                    <td> <input type="text" name="txtDate" value="" size="30" maxlength="20"></td>
+                    <td> <input type="text" name="txtDate" value="" size="32.9" maxlength="20"></td>
                 </tr>
                 <tr>
                     <td>Message</td>
@@ -738,19 +741,232 @@
                 <tr>
                     <td>Newletter</td>
                     <td style="width: 40px;"></td>
-                    <td><input type="button"></td>
+                    <td><input type="checkbox">Ensure 
+                    this box is checked if you would like to receive eamil updates</td>
                 </tr>
-            </table>
+                <tr>
+                    <td><input type="submit" value="Send message"> <input type="reset" value="Reset"></td>               
+                </tr>
+            </table>    
+        </form>
+        <!-- Bai 15 -->
+        <h4>Bai 15</h4>
+        <h1>Contact Us</h1>
+        <form action="https://github.com/stevenduc0106/ThucHanhWeb_HTML_CSS" method="ge">
+             <fieldset style="width: 500px;">
+                <legend>Your message</legend>
+                    <table>
+                        <tr>
+                            <td><label for="emailTo">To</label></td>
+                            <td style="width: 40px;"></td>
+                            <td><input type="text" name="txtTo" readonly="readonly" id="emailTo" size="20" value="Example Cafe"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="eamilForm">Your email</label></td>
+                            <td style="width: 40px;"></td>
+                            <td><input type="text" name="txtForm" id="emailForm" size="20" tabindex="1"
+                                maxlength="250" placeholder="Email_Address"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="emailBody">Message</label></td>
+                            <td style="width: 40px;"></td>
+                            <td><textarea name="txtBody" id="emailBody" cols="50" rows="10" tabindex="2"></textarea></td>
+                        </tr>
+
+                    </table>
+             </fieldset>   
+             <fieldset style="width: 500px;">
+                <legend>How you foud us:</legend>
+                    <table>
+                        <tr>
+                            <td><label for="howForm">How did you hear of us</label></td>
+                            <td style="width: 40px;"></td>
+                            <td><select name="" id="">
+                                <option value="Gooogle">Google</option>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Newletter</td>
+                            <td style="width: 40px;"></td>
+                            <td><input type="checkbox">Ensure 
+                            this box is checked if you would like to receive eamil updates</td>
+                        </tr>
+                    </table>
+             </fieldset>
+             <tr>
+                <td>
+                    <input type="submit" value="Send message"> 
+                </td>               
+             </tr>
+
+             <fieldset style="width: 500px;">
+                <legend>Contact Information</legend>
+                <table>
+                    <tr>
+                      <td><label for="fname">First name:</label></td>
+                      <td><input type="text" name="txtname" id="fname" size="20" tabindex="1"
+                        maxlength="250"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lname">Last name:</label></td>
+                        <td><input type="text" name="txtname" id="lname" size="20" tabindex="1"
+                          maxlength="250"></td>
+                      </tr>
+                      <tr>
+                        <td><label for="email">E-mail:</label></td>
+                        <td><input type="text" name="txtemail" id="email" size="20" tabindex="1"
+                          maxlength="250"></td>
+                      </tr>
+                </table>
+             </fieldset>
+
+             <fieldset style="width: 500px;">
+                <legend>Competition Question</legend>
+                <tr>
+                    <td><label for="Question">How tall is the Eiffel Tower in Paris, France?</label></td>
+                </tr>
+                <br>
+                <tr>
+                    <input name="luachon"type="radio"  value="584 ft" >584 ft<br>
+                    <input name="luachon"type="radio"  value="784 ft" >784 ft<br>
+                    <input name="luachon"type="radio"  value="984 ft"> 984 ft<br>
+                    <input name="luachon"type="radio"  value="1184 ft"> 1184 ft<br><br>
+
+                </tr>
+                
+            </fieldset>
+
+            <fieldset style="width: 500px;">
+                <legend>Tiebreaker Question</legend>
+                    <tr>
+                        <td><label for="Tb">In 25 words or less, say why you would like to win $10.000:</label></td>
+                    </tr>
+                    <tr>
+                        <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+                    </tr>
+            </fieldset>
+            <fieldset style="width: 500px;">
+                <legend>Enter competition</legend>
+                <tr>
+                    <td><input type="submit" value="Enter Competition"></td>
+                </tr>
+
+            </fieldset>
+        </form>
+        <!-- Bai 16 -->
+        <h4>Bai 16</h4>
+        <form action="https://github.com/stevenduc0106/ThucHanhWeb_HTML_CSS" method="get">
+            <h1>Travel reseveration form </h1>
+            <h5>*Denotes mandotory</h5>
+            <tr>
+                <td>
+                    <label for="fullname">Full name*:</label> <br>
+                    <input type="text" name="txtname" id="fullname" size="20" 
+                    placeholder="FirstName LastName"> <br>
+
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <label for="email">Email address*:</label> <br>
+                    <input type="text" name="lname" id="email" size="20" 
+                    placeholder="EMAIL_ADDRESS"> <br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="select">Select Tour Package*:</label> <br>
+                    <select name="" id="">
+                        <option value="Goa">Goa</option> 
+                    </select>
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td>
+                    <label for="arrival">Arrival date*:</label> <br>
+                    <input type="text" name="txtarrival" id="arrival" size="20" placeholder="m/d/y">
+
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td>
+                    <label for="number">Number of persons*:</label> <br>
+                    <input type="text" name="txtnumber" id="number" size="20" placeholder="UNKNOWN_TYPE">
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td><label for="question">What would you want to avail?*</label></td> <br>
+                Boarding<input name="luachon"type="radio" value="Boarding"> <br>
+                Fooding<input name="luachon"type="radio" value="Fooding">  <br>
+                Sight seeing<input name="luachon"type="radio" value="Sight seeing"> <br>
+            </tr>   
+
+            <tr>
+                <td>
+                    <label for="discout">Discout Coupon code:</label> <br>
+                    <input type="text" name="txtdiscout" id="discout" size="20" placeholder="UNKNOWN_TYPE">
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td>
+                    <label for="tems">Tems and conditions*</label> <br>
+                    <input name="luachon"type="radio" value="I agree"> I agree
+                    <input name="luachon"type="radio" value="I disagree"> I disagree <br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Complete reservation">
+                </td>
+            </tr>
+        </form>
+
+        <!-- Bai 17 -->
+        <h4>Bai 17</h4>
+        <form action="https://github.com/stevenduc0106/ThucHanhWeb_HTML_CSS" method="ge">
+           <fieldset style="width: 650px;background-color: rgb(239, 181, 111);">
+            <p style="text-align: center; font-size: 30px;"><b>Survey Form</b></p>
+            <p >If you are interseted in purchasing one or more of our products, before
+               ordering please complete some or all of the following survey for our 
+               marketing deparmetn. Answering any question is optional, and all Information
+               will be kept stricitly. Thank you very much for your time!
+            </p>
+
+            <ol type="1">
+                <li>
+                    <label for="name">What is your name?</label> <br>
+                    <input type="text" name="txtname" id="name" size="30">
+                </li>
+                <li>
+                    <label for="dob">What is your date of birth?</label> <br>               
+                    <label for="month">Month:</label>
+                    <select name="date_month" id="month">
+                       <option value="january" checked>January</option>
+                       <option value="ferbuary">Ferbuary</option>
+                       <option value="march">March</option>
+                       <option value="april">April</option>
+                       <option value="may">May</option>
+                       <option value="june">June</option>
+                       <option value="july">July</option>
+                       <option value="august">August</option>
+                       <option value="september">September</option>
+                       <option value="october">October</option>
+                       <option value="november">November</option>
+                       <option value="december">December</option>
+                    </select>    
+                    </li>
+            </ol>
+        </fieldset>
+ 
+            
+
         </form>
 
     </div>
-    <!-- 
-    <p>Use the following form to send a message to Example Cafe</p>
-                <p>Your email: <input type="text " name="txtEmail " value=" " size="20 " maxlength="30 "></p>
-                <p>Message</p>
-                <textarea name="textarea " id=" " cols="30 " rows="10 "></textarea>
-                <p>How did you hear of us?</p>
-                <select name=" " id=" ">opt</select> -->
-
 </html>
 </body>
