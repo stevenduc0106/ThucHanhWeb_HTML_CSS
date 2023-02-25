@@ -929,6 +929,7 @@
         <!-- Bai 17 -->
         <h4>Bai 17</h4>
         <form action="https://github.com/stevenduc0106/ThucHanhWeb_HTML_CSS" method="ge">
+        
            <fieldset style="width: 650px;background-color: rgb(239, 181, 111);">
             <p style="text-align: center; font-size: 30px;"><b>Survey Form</b></p>
             <p >If you are interseted in purchasing one or more of our products, before
@@ -945,9 +946,9 @@
                 <li>
                     <label for="dob">What is your date of birth?</label> <br>               
                     <label for="month">Month:</label>
-                    <select name="date_month" id="month">
-                       <option value="january" checked>January</option>
-                       <option value="ferbuary">Ferbuary</option>
+                    <select name="dob_month" id="month">
+                       <option value="january">January</option>
+                       <option value="ferbuary" checked>Ferbuary</option>
                        <option value="march">March</option>
                        <option value="april">April</option>
                        <option value="may">May</option>
@@ -958,11 +959,77 @@
                        <option value="october">October</option>
                        <option value="november">November</option>
                        <option value="december">December</option>
-                    </select>    
+                    </select>
+
+                    <label for="day">Date:</label>
+                     <select name="dob_Day" id="day">
+                        <option value="1" checked>1</option>
+                        <option value="2" >2</option>
+                        <option value="3" >3</option>
+                        <option value="4" >4</option>
+                        <option value="5" >5</option>
+                        <option value="6" >6</option>
+                        <option value="7" >7</option>
+                        <option value="8" >8</option>
+                        <option value="9" >9</option>
+                        <option value="10" >10</option>
+                        <option value="11" >11</option>
+                        <option value="12" >12</option>
+                        <option value="13" >13</option>
+                        <option value="14" >14</option>
+                        <option value="15" >15</option>
+                        <option value="16" >16</option>
+                        <option value="17" >17</option>
+                        <option value="18" >18</option>
+                        <option value="19" >19</option>
+                        <option value="20" >20</option>
+                        <option value="21" >21</option>
+                        <option value="22" >22</option>
+                        <option value="23" >23</option>
+                        <option value="24" >24</option>
+                        <option value="25" >25</option>
+                        <option value="26" >26</option>
+                        <option value="27" >27</option>
+                        <option value="28" >28</option>
+                    </select>
+                    <label for="year">Year:</label>
+                    <input type="text" name="txtYear" id="year" value="19" size="8">
                     </li>
+                 <li>
+                    <label for="address">What is your mailing address (if you would 
+                        like to have a hard copy of our catalog snt to you)?
+                    </label>
+                    <textarea name="" id="" cols="30" rows="5" >  </textarea>
+                 </li>
+                <li>
+                    <label for="email">What is your email address?</label> <br>
+                    <input type="text" name="txtName" id="email" size="25">
+                </li>
+                <li>
+                    <label for="product">Have you ever viewed our online product catalog?</label> <br>
+                    <input name="luachon"type="radio" value="Yes" checked> Yes
+                    <input name="luachon"type="radio" value="No"> No <br>
+                </li>
+                <li>
+                    <label for="checkall">If so, waht products(s), besides the one you are ordering, might you 
+                        be interseted in purchasing in the future? (Check all that apply.)
+                    </label> <br>
+                    <input name="luachon" type="checkbox" value="VCR">VCR <br>
+                    <input name="luachon" type="checkbox" value="Big Screen TV">Big Screen TV <br>  
+                    <input name="luachon" type="checkbox" value="Audio Equipment">Audio Equipment <br>
+                    <input name="luachon" type="checkbox" value="Video Equipment">Video Equipment <br>
+                    <input name="luachon" type="checkbox" value="Camera Equipment">Camera Equipment <br>
+                    <input name="luachon" type="checkbox" value="Orther" checked>Orther <input type="text" value="Please List:">
+                </li>
+                <li>
+                    <label for="question">Do you have any question, commnents or suggestion before proceeding to the Order Form?</label>
+                    <textarea name="" id="" cols="30" rows="5">Your Input: </textarea>
+                    <td style="margin-left:auto;margin-right:auto;"> <input type="reset" value="Send form" > <input type="button" value="Clear Form"></td>
+                </li>
             </ol>
+         
         </fieldset>
- 
+        
             
 
         </form>
